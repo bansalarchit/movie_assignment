@@ -1,0 +1,21 @@
+<table class='table table-stripped'>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Release Date</th> 
+            <th>Actor</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let dataitem of Movielist">
+            <td>{{dataitem.title}}</td>
+            <td>{{dataitem.description}}</td>
+            <td>{{dataitem.release_date}}</td>
+            <td>{{dataitem.actor}}</td>
+        </tr>
+    </tbody>
+
+</table>

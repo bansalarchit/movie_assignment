@@ -1,0 +1,17 @@
+<table class='table table-stripped'>
+    <thead>
+        <tr>
+            <th>Actor Name</th>
+            <th>Movie Name</th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let dataitem of Relationlist">
+            <td>{{dataitem.actor.name}}</td>
+            <td>{{dataitem.movie.title}}</td>
+        </tr>
+    </tbody>
+
+</table>
